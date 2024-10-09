@@ -1,0 +1,50 @@
+/* src/UserList.css */
+
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px; /* Espacio entre las tarjetas */
+    padding: 16px; /* Espacio alrededor del grid */
+  }
+  
+  .user-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .user-card:hover {
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño al pasar el mouse */
+  }
+  
+  h3 {
+    margin: 0 0 8px; /* Margen inferior para el título */
+  }
+  
+  p {
+    margin: 4px 0; /* Margen vertical para los párrafos */
+  }
+  
+
+.button-container {
+    margin-top: 20px; /* Espacio arriba de los botones */
+    text-align: center; /* Centra los botones */
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 0 10px; /* Espacio entre los botones */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+  }
